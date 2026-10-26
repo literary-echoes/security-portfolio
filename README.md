@@ -6,6 +6,7 @@ Vulnerability research in open-source software, focused on MCP servers and WordP
 
 - **[Case study 2 — Allowlist bypass via tar argument-parser differentials (argument injection)](case-studies/02-mcp-shell-server-tar-allowlist-bypass.md)** — `tumf/mcp-shell-server` · CWE-88 · High. Published advisory [GHSA-3g42-7xr6-4x77](https://github.com/tumf/mcp-shell-server/security/advisories/GHSA-3g42-7xr6-4x77) (primary record for GHSA-vfjj-qwhx-h2wc / GHSA-38g6-q83h-hj4f); fixed in v1.1.14.
 - **[Case study 3 — Sandbox escape through a second reference to the original core (`__bootstrap.core.print`)](case-studies/03-mcp-js-bootstrap-print-sandbox-escape.md)** — `r33drichards/mcp-js` · CWE-693 · Critical. Fixed via [PR #289](https://github.com/r33drichards/mcp-js/pull/289) (2026-10-20), maintainer-verified with a live repro and regression tests.
+- **[Case study 4 — Unauthenticated HTTP transport exposes shell tool: remote RCE (CWE-306)](case-studies/04-octofs-unauth-http-rce.md)** — `Muvon/octofs` · CWE-306 · Critical. Fixed via commit [730803d](https://github.com/Muvon/octofs/commit/730803d) (2026-10-25): auth-token required for non-loopback binds, constant-time Bearer middleware, loopback-only default.
 
 ## Findings
 
@@ -21,12 +22,12 @@ Vulnerability research in open-source software, focused on MCP servers and WordP
 | 13 | 2026-10-10 | bilalnaseer/wsp-wordpress-mcp | High + Medium + Low | Vendor + plugins@wordpress.org; Patchstack eligibility inquiry pending | — |
 | 20 | 2026-10-11 | r33drichards/mcp-js | Medium | Open | [issue #280](https://github.com/r33drichards/mcp-js/issues/280) |
 | 14 | 2026-10-10 | Ultimate-Multisite/ultimate-multisite | Medium | GHSA in triage — details withheld until published | — |
-| — | 2026-10 | Muvon/octofs | Critical | Open (public issue) | [issue #12](https://github.com/Muvon/octofs/issues/12) |
+| 21 | 2026-10-11 | Muvon/octofs | Critical | Fixed (commit 730803d, 2026-10-25) | [issue #12](https://github.com/Muvon/octofs/issues/12) |
 | — | 2026-10 | H-mmer/pentest-agents | High | Open (public issue) | [issue #27](https://github.com/H-mmer/pentest-agents/issues/27) |
 | — | 2026-10 | H-mmer/pentest-agents | High | Open (public issue) | [issue #28](https://github.com/H-mmer/pentest-agents/issues/28) |
 | — | 2026-10 | kontext-security/browser-use-mcp-server | High | Open (public issue) | [issue #69](https://github.com/kontext-security/browser-use-mcp-server/issues/69) |
 | — | 2026-10 | pathintegral-institute/mcpm.sh | High | Open (public issue) | [issue #447](https://github.com/pathintegral-institute/mcpm.sh/issues/447) |
-| — | 2026-10 | Muvon/octofs | High | Open (public issue) | [issue #13](https://github.com/Muvon/octofs/issues/13) |
+| 22 | 2026-10-11 | Muvon/octofs | High | Open (public issue) | [issue #13](https://github.com/Muvon/octofs/issues/13) |
 | — | 2026-10 | d3cline/VibeShell | High | Open (public issue) | [issue #1](https://github.com/d3cline/VibeShell/issues/1) |
 | — | 2026-10 | fkxxyz/mcp-shell | High | Open (public issue) | [issue #2](https://github.com/fkxxyz/mcp-shell/issues/2) |
 | — | 2026-10 | zinja-coder/apktool-mcp-server | Medium | Open (public issue) | [issue #17](https://github.com/zinja-coder/apktool-mcp-server/issues/17) |
