@@ -28,11 +28,11 @@ Vulnerability research in open-source software, focused on MCP servers and WordP
 | — | 2026-10 | kontext-security/browser-use-mcp-server | High | Open (public issue) | [issue #69](https://github.com/kontext-security/browser-use-mcp-server/issues/69) |
 | — | 2026-10 | pathintegral-institute/mcpm.sh | High | Open (public issue) | [issue #447](https://github.com/pathintegral-institute/mcpm.sh/issues/447) |
 | 22 | 2026-10-11 | Muvon/octofs | High | Open (public issue) | [issue #13](https://github.com/Muvon/octofs/issues/13) |
-| — | 2026-10 | d3cline/VibeShell | High | Open (public issue) | [issue #1](https://github.com/d3cline/VibeShell/issues/1) |
+| 23 | 2026-10-11 | d3cline/VibeShell | High | Fixed (commit 4e6036b9, 2026-10-27) | [issue #1](https://github.com/d3cline/VibeShell/issues/1) |
 | — | 2026-10 | fkxxyz/mcp-shell | High | Open (public issue) | [issue #2](https://github.com/fkxxyz/mcp-shell/issues/2) |
 | — | 2026-10 | zinja-coder/apktool-mcp-server | Medium | Open (public issue) | [issue #17](https://github.com/zinja-coder/apktool-mcp-server/issues/17) |
 | — | 2026-10 | pathintegral-institute/mcpm.sh | Medium | Open (public issue) | [issue #448](https://github.com/pathintegral-institute/mcpm.sh/issues/448) |
-| — | 2026-10 | d3cline/VibeShell | Medium | Open (public issue) | [issue #2](https://github.com/d3cline/VibeShell/issues/2) |
+| 24 | 2026-10-11 | d3cline/VibeShell | Medium | Fixed (commit 4e6036b9, 2026-10-27) | [issue #2](https://github.com/d3cline/VibeShell/issues/2) |
 | — | 2026-10 | saumilthecode/mcp-shell-exec | Medium | Open (public issue) | [issue #1](https://github.com/saumilthecode/mcp-shell-exec/issues/1) |
 | — | 2026-10 | soflyy/agent-connector-for-wp | Medium | Open (public issue) | [issue #137](https://github.com/soflyy/agent-connector-for-wp/issues/137) |
 | — | 2026-10 | noovertime7/mcp-shell | Low | Open (public issue) | [issue #1](https://github.com/noovertime7/mcp-shell/issues/1) |
